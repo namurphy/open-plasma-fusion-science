@@ -1,27 +1,44 @@
 # Miscellaneous files
 
+*\#*
 *~
-\#*
+.DS_Store
 Untitled*.ipynb
-.idea
 
 # MyST files
 
 _build
-node_modules
-dist
+build
 coverage
+dist
+node_modules
 
 # Intermediate LaTeX files
 
 *.aux
 *.bbl*
+*.blg
+*.dvi
 *.lof
 *.log
-*.dvi
 *.ps
 
 # Local configurations
 
 .idea
 .vscode
+
+# Python files
+
+*.egg*
+*coverage*
+.cache
+.nox*
+.venv
+__pycache__
+dist
+ENV
+env
+lib
+venv
+wheels
